@@ -1,8 +1,9 @@
-import FeedbackBtn from "components/Feedback/FeedbackBtn";
+import FeedbackBtn from 'components/Feedback/FeedbackBtn';
+import css from './FeedbackOptions.module.css';
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
-    <ul>
+    <ul className={css.listBtn}>
       {options.map(option => {
         return (
           <FeedbackBtn

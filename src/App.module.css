@@ -1,0 +1,25 @@
+.container {
+   
+    border: 1px solid;
+    border-radius: 16px;
+    width: 320px;
+    padding: 20px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+
+}
+.container:hover,
+container:focus {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+@media screen and (min-width: 768px){
+    .container{
+        width: 350px;
+    }
+    
+}
